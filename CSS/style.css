@@ -1,4 +1,22 @@
-div{
-    width: 100px;
-    height: 100px;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+body{
+    background: rgb(11, 12, 11); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     font-family: "JetBrains Mono", monospace;
+}
+
+.main-btn{
+    background-color:  rgba(0, 255, 136, 0.514);
+}
+
+
+@media (max-width:991px) {
+    .sidebar{
+       background:rgba(70, 46, 41,0.15);
+       backdrop-filter: blur(10px);
+
+       
+    }   
 }
