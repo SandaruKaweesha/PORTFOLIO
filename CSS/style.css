@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,800;1,800&display=swap'); */
+  
 body{
     background: rgb(11, 12, 11); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-     font-family: "JetBrains Mono", monospace;
+    font-family: "JetBrains Mono" ;
 }
 
 .main-btn{
@@ -19,4 +21,42 @@ body{
 
        
     }   
+}
+.main_para{
+    font-size: smaller;
+}
+.hero-btn{
+    border:1px  solid  rgba(16, 255, 143);    
+    color:rgb(16, 255, 143);
+    margin-top:20px;
+    
+}
+.hero-btn:hover{
+    background-color:  rgba(0, 255, 136, 0.514);
+    color: aliceblue;
+    border:none;
+}
+.hero-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i{
+    color:rgb(16, 255, 143);
+    border: 1px solid rgb(16, 255, 143);
+}
+.skill{
+    display: flex;
+    align-items: center;
+}
+.skill p{
+    font-size: 14px;
+}
+.second-hero-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
