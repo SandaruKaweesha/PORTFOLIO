@@ -167,6 +167,28 @@ body{
 
 
 
+/* Work Section */
+.i-con{
+    color:rgb(191, 191, 6);
+    /* margin-bottom: 20px; */
+    margin-top: 10px;
+}
+.work-card{
+    line-height: 10px;
+}
+.work-card p{
+font-size: smaller;
+}
+.work-card .card-body a{
+    color: rgb(0, 136, 255);
+}
+.work-card .card-body a:hover{
+    background:rgb(0, 136, 255);
+    color: rgb(255, 255, 255);
+}
+
+
+
 /* Media */
 @media (max-width: 991px) {
     .sidebar {
@@ -205,5 +227,14 @@ body{
     }
     .name{
         width: 100%;
+    }
+
+
+
+    .work-card{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        
     }
 }
