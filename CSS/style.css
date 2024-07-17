@@ -1,288 +1,268 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap");
 /* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,800;1,800&display=swap'); */
-  
-body{
-    background: rgb(247, 247, 247); 
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: "JetBrains Mono" ;
-    
+
+body {
+  background: rgb(247, 247, 247);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "JetBrains Mono";
 }
 /* Navigation Bar*/
-.navBack{
-    background-color: rgb(255, 255, 255);
+.navBack {
+  background-color: rgb(255, 255, 255);
 }
-.nav-link:hover{
-    color: rgb(0, 195, 255);
+.nav-link:hover {
+  color: rgb(0, 195, 255);
 }
-.nav-link{
-    color: rgba(17, 17, 17, 0.308);
+.nav-link {
+  color: rgba(17, 17, 17, 0.308);
 }
 /* Main page main Section*/
-.main-container{
-    background-color: rgb(255, 255, 255);
-    border-radius: 1rem;
-    backdrop-filter: blur(20px);
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+.main-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  backdrop-filter: blur(20px);
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
 }
-.main-btn{
-    background-color: rgb(0, 195, 255);
-    color: rgb(255, 255, 255);
+.main-btn {
+  background-color: rgb(0, 195, 255);
+  color: rgb(255, 255, 255);
 }
-.main-btn:hover{
-    background-color: rgb(252, 252, 252);
-    border: 1px solid rgb(0, 195, 255);
-    color: rgb(0, 195, 255);
+.main-btn:hover {
+  background-color: rgb(252, 252, 252);
+  border: 1px solid rgb(0, 195, 255);
+  color: rgb(0, 195, 255);
 }
-.main_para{
-    font-size: smaller;
-    color:rgb(17, 17, 17);
+.main_para {
+  font-size: smaller;
+  color: rgb(17, 17, 17);
 }
-.hero-btn{
-    border:1px  solid  rgb(0, 195, 255);    
-    color:rgb(0, 195, 255);
-    margin-top:20px;
-    
+.hero-btn {
+  border: 1px solid rgb(0, 195, 255);
+  color: rgb(0, 195, 255);
+  margin-top: 20px;
 }
-.hero-btn:hover{
-    background-color:  rgb(0, 195, 255);
-    color: rgb(255, 255, 255);
-    border:none;
+.hero-btn:hover {
+  background-color: rgb(0, 195, 255);
+  color: rgb(255, 255, 255);
+  border: none;
 }
-.hero-sub{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.hero-sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.icon i{
-    color:rgb(0, 195, 255);
-    border: 1px solid rgb(0, 195, 255);
+.icon i {
+  color: rgb(0, 195, 255);
+  border: 1px solid rgb(0, 195, 255);
 }
-.skill{
-    display: flex;
-    align-items: center;
+.skill {
+  display: flex;
+  align-items: center;
 }
-.skill h1{
-    color:rgb(17, 17, 17);
+.skill h1 {
+  color: rgb(17, 17, 17);
 }
-.skill p{
-    font-size: 14px;
-    color: rgba(17, 17, 17, 0.582);
+.skill p {
+  font-size: 14px;
+  color: rgba(17, 17, 17, 0.582);
 }
-.second-hero-section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.second-hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 /* main Page Image */
-.IMG{
-    width: 100%;
-    overflow: hidden;
-    height: 335px;
-    border-radius: 1rem;
+.IMG {
+  width: 100%;
+  overflow: hidden;
+  height: 335px;
+  border-radius: 1rem;
 }
-.IMG img{
-    width: auto;
-    object-fit: cover;
-} 
-
-
-
-
-
+.IMG img {
+  width: 100%;
+  /* width: auto; */
+  object-fit: cover;
+}
 
 /* Service section */
-.car-section{
-    border-radius: 20px;
-    height: 500px;
-    overflow: hidden;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.06);
+.car-section {
+  border-radius: 20px;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
 }
-.car-section img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.car-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.content{
-    border-radius: 20px;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    color: rgb(255, 255, 255);
-    height: 40%;
-    bottom: 40%;
-    position: relative;
-    width: 100%;
+.content {
+  border-radius: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  color: rgb(255, 255, 255);
+  height: 40%;
+  bottom: 40%;
+  position: relative;
+  width: 100%;
 }
-.content p{
-    font-size: smaller;
+.content p {
+  font-size: smaller;
 }
-.contact-second i{
-    padding: 10px;
+.contact-second i {
+  padding: 10px;
 }
-
-
-
 
 /* Contact section */
-.contact-card{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 10px 10px 10px rgba(0,0, 0,0.06);
-    padding: 30px;
-    border-radius: 10px;
+.contact-card {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  border-radius: 10px;
 }
-.contact-card p{
-    font-size: smaller;
+.contact-card p {
+  font-size: smaller;
 }
-.name{
-    margin-top: 10px;
-    height: 3rem;
-    width: 49%;
-    border-radius: 3px;
-    border: 1px solid black;
-    padding: 5px;
-    
+.name {
+  margin-top: 10px;
+  height: 3rem;
+  width: 49%;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 5px;
 }
-.area{
-    width: 100%;
-    border: 1px solid black;
-    margin-top: 10px;
-    border-radius: 3px;
-    height: 150px;
+.area {
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 10px;
+  border-radius: 3px;
+  height: 150px;
 }
-.select{
-    margin-top: 1rem;
-    border: 1px solid black;
-    width: 100%;
-    height: 3rem;
-    
+.select {
+  margin-top: 1rem;
+  border: 1px solid black;
+  width: 100%;
+  height: 3rem;
 }
-.send-btn{
-    margin-top: 2rem;
-    border:1px  solid  rgb(0, 195, 255);
-    color: white;
-    background-color:rgb(0, 195, 255);;
+.send-btn {
+  margin-top: 2rem;
+  border: 1px solid rgb(0, 195, 255);
+  color: white;
+  background-color: rgb(0, 195, 255);
 }
-.send-btn:hover{
-    border:1px  solid  rgb(0, 195, 255);
-    color:rgb(0, 195, 255);
-    background-color:rgb(255, 255, 255);;
+.send-btn:hover {
+  border: 1px solid rgb(0, 195, 255);
+  color: rgb(0, 195, 255);
+  background-color: rgb(255, 255, 255);
 }
-
 
 /* icon Secton in Contact section */
-.contact-second{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-    
+.contact-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
 }
-.contact-second i{
-    color:rgb(0, 195, 255);
-    font-size: 2rem;
-    border-radius: 5px;
+.contact-second i {
+  color: rgb(0, 195, 255);
+  font-size: 2rem;
+  border-radius: 5px;
 }
-.contact-second  div p{
-    line-height: 1px;
-    font-size: smaller;
-    color: rgba(17, 17, 17, 0.308);
-    margin-left: 1rem;
-
+.contact-second div p {
+  line-height: 1px;
+  font-size: smaller;
+  color: rgba(17, 17, 17, 0.308);
+  margin-left: 1rem;
 }
-.contact-second  div p span{
-    font-weight: 700;
+.contact-second div p span {
+  font-weight: 700;
 }
-
 
 /* Work Section */
-.i-con{
-    color:rgb(191, 191, 6);
-    margin-top: 10px;
+.i-con {
+  color: rgb(191, 191, 6);
+  margin-top: 10px;
 }
-.work-card{
-    line-height: 10px;
-    box-shadow: 10px 10px 10px rgba(0, 0,0, 0.06);
+.work-card {
+  line-height: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
 }
-.work-card p{
-font-size: smaller;
+.work-card p {
+  font-size: smaller;
 }
-.work-card .card-body a{
-    color: rgb(0, 136, 255);
+.work-card .card-body a {
+  color: rgb(0, 136, 255);
 }
-.work-card .card-body a:hover{
-    background:rgb(0, 136, 255);
-    color: rgb(255, 255, 255);
+.work-card .card-body a:hover {
+  background: rgb(0, 136, 255);
+  color: rgb(255, 255, 255);
 }
-
-
 
 /* Media */
 @media (max-width: 991px) {
-    /* Navigation Sction */
-    .sidebar {
-        background: rgba(56, 83, 72, 0.15);
-        backdrop-filter: blur(10px);
-    }
+  /* Navigation Sction */
+  .sidebar {
+    background: rgba(56, 83, 72, 0.15);
+    backdrop-filter: blur(10px);
+  }
 
-    /* Main page main Section */
-    .hero-sub {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 5px;
-    }
-    .icon i{
-        margin-top: 20px;
-    } 
-    .second-hero-section{
+  /* Main page main Section */
+  .hero-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .icon i {
+    margin-top: 20px;
+  }
+  .second-hero-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    }
-    .skill {
-    flex-direction: column;   
-    padding: 0;   
+  }
+  .skill {
+    flex-direction: column;
+    padding: 0;
     font-size: 14px;
     text-align: center;
     margin-top: 0;
-    }
-    .main-container{
+  }
+  .main-container {
     margin-top: 10px;
-    }
-    .IMG{
-        margin-top: 1rem;
-         width: 100%;
-    }
-    
-    
-    /* Contact Section */
-    .name{
-        width: 100%;
-    }
-    .car-section{
-        margin: 0px 10px 0 10px;
-    }
+  }
+  .IMG {
+    margin-top: 1rem;
+    width: 100%;
+  }
 
-    /* Work Section */
-    .work-card{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 1rem;
-        
-    }
+  /* Contact Section */
+  .name {
+    width: 100%;
+  }
+  .car-section {
+    margin: 0px 10px 0 10px;
+  }
 
-    /* Icon Section in Contact Section */
-    .contact-second{
-        margin-left: 2rem;
-    }
+  /* Work Section */
+  .work-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  /* Icon Section in Contact Section */
+  .contact-second {
+    margin-left: 2rem;
+  }
 }
