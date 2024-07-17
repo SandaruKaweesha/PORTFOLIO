@@ -2,36 +2,55 @@
 /* @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,800;1,800&display=swap'); */
   
 body{
-    background: rgb(11, 12, 11); 
+    background: rgb(247, 247, 247); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "JetBrains Mono" ;
     
 }
+/* Navigation Bar*/
+.navBack{
+    background-color: rgb(255, 255, 255);
+}
+.nav-link:hover{
+    color: rgb(0, 195, 255);
+}
+.nav-link{
+    color: rgba(17, 17, 17, 0.308);
+}
+/* Main page main Section*/
 .main-container{
-    background: rgba(255, 255, 255, 0.13);
+    background-color: rgb(255, 255, 255);
     border-radius: 1rem;
     backdrop-filter: blur(20px);
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.06);
 }
 .main-btn{
-    background-color:  rgba(0, 255, 136, 0.514);
+    background-color: rgb(0, 195, 255);
+    color: rgb(255, 255, 255);
+}
+.main-btn:hover{
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(0, 195, 255);
+    color: rgb(0, 195, 255);
 }
 .main_para{
     font-size: smaller;
+    color:rgb(17, 17, 17);
 }
 .hero-btn{
-    border:1px  solid  rgba(16, 255, 143);    
-    color:rgb(16, 255, 143);
+    border:1px  solid  rgb(0, 195, 255);    
+    color:rgb(0, 195, 255);
     margin-top:20px;
     
 }
 .hero-btn:hover{
-    background-color:  rgba(0, 255, 136, 0.514);
-    color: aliceblue;
+    background-color:  rgb(0, 195, 255);
+    color: rgb(255, 255, 255);
     border:none;
 }
 .hero-sub{
@@ -40,17 +59,20 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 .icon i{
-    color:rgb(16, 255, 143);
-    border: 1px solid rgb(16, 255, 143);
+    color:rgb(0, 195, 255);
+    border: 1px solid rgb(0, 195, 255);
 }
 .skill{
     display: flex;
     align-items: center;
 }
+.skill h1{
+    color:rgb(17, 17, 17);
+}
 .skill p{
     font-size: 14px;
+    color: rgba(17, 17, 17, 0.582);
 }
 .second-hero-section{
     display: flex;
@@ -58,17 +80,29 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+/* main Page Image */
+.IMG{
+    width: 100%;
+    overflow: hidden;
+    height: 335px;
+    border-radius: 1rem;
+}
+.IMG img{
+    width: auto;
+    object-fit: cover;
+} 
+
 
 
 
 
 
 /* Service section */
-
 .car-section{
     border-radius: 20px;
     height: 500px;
     overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.06);
 }
 .car-section img{
     width: 100%;
@@ -80,10 +114,9 @@ body{
     padding: 10px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     height: 40%;
     bottom: 40%;
-    /* box-sizing: border-box; */
     position: relative;
     width: 100%;
 }
@@ -99,7 +132,8 @@ body{
 
 /* Contact section */
 .contact-card{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgba(0,0, 0,0.06);
     padding: 30px;
     border-radius: 10px;
 }
@@ -113,7 +147,6 @@ body{
     border-radius: 3px;
     border: 1px solid black;
     padding: 5px;
-    
     
 }
 .area{
@@ -132,32 +165,34 @@ body{
 }
 .send-btn{
     margin-top: 2rem;
-    border: 1px solid black;
+    border:1px  solid  rgb(0, 195, 255);
+    color: white;
+    background-color:rgb(0, 195, 255);;
+}
+.send-btn:hover{
+    border:1px  solid  rgb(0, 195, 255);
+    color:rgb(0, 195, 255);
+    background-color:rgb(255, 255, 255);;
 }
 
 
-
+/* icon Secton in Contact section */
 .contact-second{
     display: flex;
     justify-content: center;
-    /* background-color: blue; */
     align-items: center;
     margin-bottom: 2rem;
-    /* margin-top: 2rem; */
+    
 }
 .contact-second i{
-    background-color: aliceblue;
+    color:rgb(0, 195, 255);
     font-size: 2rem;
     border-radius: 5px;
-    /* margin-bottom: 2.2rem; */
 }
-
-
 .contact-second  div p{
     line-height: 1px;
-    /* font-size: 2rem; */
     font-size: smaller;
-    color: aliceblue;
+    color: rgba(17, 17, 17, 0.308);
     margin-left: 1rem;
 
 }
@@ -166,15 +201,14 @@ body{
 }
 
 
-
 /* Work Section */
 .i-con{
     color:rgb(191, 191, 6);
-    /* margin-bottom: 20px; */
     margin-top: 10px;
 }
 .work-card{
     line-height: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0,0, 0.06);
 }
 .work-card p{
 font-size: smaller;
@@ -191,11 +225,13 @@ font-size: smaller;
 
 /* Media */
 @media (max-width: 991px) {
+    /* Navigation Sction */
     .sidebar {
         background: rgba(56, 83, 72, 0.15);
         backdrop-filter: blur(10px);
     }
 
+    /* Main page main Section */
     .hero-sub {
         display: flex;
         flex-direction: column;
@@ -203,11 +239,9 @@ font-size: smaller;
         align-items: center;
         margin-top: 5px;
     }
-    
-
-    i{
+    .icon i{
         margin-top: 20px;
-    }
+    } 
     .second-hero-section{
     display: flex;
     flex-direction: column;
@@ -223,18 +257,32 @@ font-size: smaller;
     margin-top: 0;
     }
     .main-container{
-    margin-top: 0;
+    margin-top: 10px;
     }
+    .IMG{
+        margin-top: 1rem;
+         width: 100%;
+    }
+    
+    
+    /* Contact Section */
     .name{
         width: 100%;
     }
+    .car-section{
+        margin: 0px 10px 0 10px;
+    }
 
-
-
+    /* Work Section */
     .work-card{
         display: flex;
         flex-direction: column;
         margin-bottom: 1rem;
         
+    }
+
+    /* Icon Section in Contact Section */
+    .contact-second{
+        margin-left: 2rem;
     }
 }
